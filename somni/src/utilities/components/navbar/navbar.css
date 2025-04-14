@@ -1,0 +1,37 @@
+.navbar-style {
+    position: fixed;
+    left: 0.25vw;
+    top: 0.7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 99.5vw;
+    height: 3.8rem;
+    background-color: rgba(200, 200, 200, 0.45);
+    border-radius: 20px;;
+}
+
+.nav-buttons {
+    position: fixed;
+    right: 1.3rem;
+}
+
+
+.nav-buttons button {
+    margin-left: 5rem;
+    padding: 12px;
+    border-radius: 20px;
+    border-style: hidden;
+    background-color: #c2c9f9;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    transform: scale(1.1)
+}
+
+.navbar-style h1 {
+    margin-left: 1rem;
+    color: #020413;
+}

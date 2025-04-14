@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c1a75;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Winky Sans", sans-serif;
+}
+
+/* Effetto lucido e trasparente */
+.login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(9, 0, 16, 0.176);
+    backdrop-filter: blur(12px);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 1px 30px rgba(237, 13, 215, 0.5);
+    width: 100%;
+    max-width: 800px;  /* Limita la larghezza della box */
+    text-align: center;
+    margin: auto; /* Aggiungi per centrarla anche orizzontalmente */
+}
+
+.login-container h1 {
+    color: #c7ccf8;
+    font-size: 6.5vh;
+}
+
+.login-form-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    padding: 10px;
+    width: 60%;
+    border-style: hidden;
+}
+
+.get-start-button-style {
+    all: unset;
+    border: null;
+    padding: 0;
+    margin-top: 3.5vh;
+    text-decoration: underline;
+    color: darkorange;
+    cursor: pointer;
+}
+
+.get-start-button-style:hover {
+    transform: scale(1.3);
+}
+
+.login-container img {
+    width: 15%;
+    height: auto;
+}
+
+.auth-button {
+   background-color: #c2c9f9;
+   padding: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 1.2vh;
+   color: black;
+   margin-top: 1vh;
+   border-style: hidden;
+}
+
+.auth-button:hover {
+    transform: scale(1.1);
+}
+
+label {
+    display: inline-flex; /* Usa flex per gestire il layout */
+    align-items: center;  /* Allinea la checkbox e il testo verticalmente */
+    white-space: nowrap;
+    cursor: pointer; /* Cambia il cursore al passaggio sopra l'etichetta */
+    color: rgb(232, 61, 201);
+}
+
+input[type="checkbox"] {
+    margin: 0; /* Rimuove margini extra */
+    padding: 0; /* Rimuove padding extra */
+    margin-right: 10px; /* Aggiungi spazio tra checkbox e testo */
+}
+
+.upload-file {
+    margin-top: 5vh;
+    color: rgb(12, 2, 18);
+}
+
+.uploader button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #c2c9f9;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+.uploader {
+    margin-top: 2%;
+}
+
+.upload-checkbox {
+    display: flex;
+    flex-direction: start;
+    justify-content:space-around; 
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px; /* Angoli arrotondati */
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 6vh;
+  }
+
+  .go-to-dashboard-button {
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    background-color: #c2c9f9;
+    border-style: hidden;
+    cursor: pointer;
+  }
+
+  .go-to-dashboard-button:hover {
+    transform: scale(1.1);
+  }

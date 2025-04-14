@@ -1,0 +1,23 @@
+.wBar-style {
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    padding: 2%;
+    border-radius: 30px;
+    border-style: hidden;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.info {
+    color: #c2c9f9;
+}
+
+.avarage-sleep {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+    color: #c2c9f9;
+}

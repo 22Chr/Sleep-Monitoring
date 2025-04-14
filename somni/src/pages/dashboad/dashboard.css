@@ -1,0 +1,98 @@
+.waiting-data {
+    color: white;
+}
+
+.graph-box {
+    color: #010101;
+    position: fixed;
+    bottom: 3%;
+    right: 15%;
+}
+
+.pie-chart-style {
+    position: fixed;
+    bottom: 5%;
+    right: 4%;
+    width: 30%;
+    border-style: hidden;
+    border-radius: 40px;
+    padding: 1%;
+    background-color: #c2c9f964;
+}
+
+.pie-title {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.3vw;
+}
+
+.sleep-details {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #c2c9f9;
+}
+
+
+.waiting-for-data-message {
+    color: #c2c9f9;
+}
+
+.week-nav {
+    position: fixed;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hypnogram-style {
+    position: fixed;
+    bottom: 5%;
+    left: 4%;
+    width: 30%;
+    border-style: hidden;
+    border-radius: 40px;
+    padding: 1%;
+    background-color: #c2c9f964;
+}
+
+.SQI {
+    position: fixed;
+    height: 36.5%;
+    width: 20%;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: hidden;
+    border-radius: 40px;
+    padding: 1%;
+    background-color: #c2c9f964;
+}
+
+.sleep-quality {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 1.3vw;
+}
+
+.punteggio {
+    text-align: center;
+    font-size: 6vw;
+}
+
+#poor {
+    color: #d00000;
+}
+
+#good {
+    color: #fdc500;
+}
+
+#perfect {
+    color : #70e000;
+}
+
+#really-bad {
+    color: #7209b7;
+}
